@@ -1,0 +1,23 @@
+{ 
+  "name": "odd-genius", 
+  "version": "1.0.0", 
+  "description": "Soccer betting analytics platform", 
+  "main": "index.js", 
+  "scripts": { 
+    "start:backend": "cd backend ^&^& npm run start", 
+    "start:frontend": "cd frontend ^&^& npm start", 
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"", 
+    "install:all": "npm install ^&^& cd backend ^&^& npm install ^&^& cd ../frontend ^&^& npm install" 
+  }, 
+  "keywords": [ 
+    "soccer", 
+    "betting", 
+    "odds", 
+    "analytics" 
+  ], 
+  "author": "", 
+  "license": "ISC", 
+  "devDependencies": { 
+    "concurrently": "^8.0.1" 
+  } 
+} 
