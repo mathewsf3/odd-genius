@@ -1,6 +1,13 @@
 # Odd Genius - Soccer Betting Platform 
  
-A modern soccer betting analytics platform that integrates with AllSportsAPI to provide live scores, betting odds, and match analyses. 
+Odd Genius is a modern soccer betting analytics platform that uses real-time data from [AllSportsAPI](https://allsportsapi.com) to deliver:
+- Live match data
+- Predictive analytics
+- Odds comparison
+- Smart betting insights powered by AI
+
+Designed for both casual bettors and advanced tipsters, the platform brings deep stats and high-confidence betting tips in one sleek, easy-to-use interface.
+
  
 ## Project Structure 
 - `frontend/` - React TypeScript frontend application 
